@@ -116,7 +116,7 @@ const Movie = ({
             )}
 
           <div className="group relative">
-            {/*
+
             <img
               src={getSrcThumbnail(movie.thumbnailImageId).toString()}
               className="
@@ -133,8 +133,8 @@ const Movie = ({
             "
               alt="Cover"
             />
-*/}
 
+   {/*
             <div
               className="
               relative
@@ -157,7 +157,7 @@ const Movie = ({
                 alt="Cover"
               />
             </div>
-
+*/}
             <div className="absolute bottom-4 left-4 right-4">
               <div onClick={(e) => e.stopPropagation()}>
                 <AddToMyList size="small" movie={movie} />

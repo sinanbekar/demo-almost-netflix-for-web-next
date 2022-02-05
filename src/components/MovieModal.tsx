@@ -43,6 +43,7 @@ const MovieModal = ({
         from-black
         to-[#141414]"
       >
+           {/*
         <Image
           src={getSrcMainThumbnail(movie.thumbnailImageId).toString()}
           layout="fill"
@@ -52,14 +53,14 @@ const MovieModal = ({
           objectPosition="top"
           className="h-full w-full rounded-t-lg"
         />
+ */}
 
-        {/*
         <img
           src={getSrcMainThumbnail(movie.thumbnailImageId).toString()}
           alt="Cover"
           className="h-full w-full rounded-t-lg object-cover object-top"
         />
-      */}
+
         <div
           className="
           absolute
